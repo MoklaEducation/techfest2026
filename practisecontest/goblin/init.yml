@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: goblin.1.in, out: goblin.1.out, points: 5}
+- {in: goblin.2.in, out: goblin.2.out, points: 20}
+- {in: goblin.3.in, out: goblin.3.out, points: 75}

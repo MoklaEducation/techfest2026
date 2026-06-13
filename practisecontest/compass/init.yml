@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: compass.1.in, out: compass.1.out, points: 5}
+- {in: compass.2.in, out: compass.2.out, points: 20}
+- {in: compass.3.in, out: compass.3.out, points: 75}
