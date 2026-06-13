@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: q18.1.in, out: q18.1.out, points: 5}
+- {in: q18.2.in, out: q18.2.out, points: 20}
+- {in: q18.3.in, out: q18.3.out, points: 75}

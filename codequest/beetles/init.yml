@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: unique-scarab-beetles.1.in, out: unique-scarab-beetles.1.out, points: 5}
+- {in: unique-scarab-beetles.2.in, out: unique-scarab-beetles.2.out, points: 20}
+- {in: unique-scarab-beetles.3.in, out: unique-scarab-beetles.3.out, points: 75}
