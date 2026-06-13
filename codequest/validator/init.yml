@@ -1,0 +1,10 @@
+archive: tests.zip
+test_cases:
+- {in: nav-computer-validator.1.in, out: nav-computer-validator.1.out, points: 2}
+- {in: nav-computer-validator.2.in, out: nav-computer-validator.2.out, points: 3}
+- {in: nav-computer-validator.3.in, out: nav-computer-validator.3.out, points: 5}
+- {in: nav-computer-validator.4.in, out: nav-computer-validator.4.out, points: 10}
+- {in: nav-computer-validator.5.in, out: nav-computer-validator.5.out, points: 10}
+- {in: nav-computer-validator.6.in, out: nav-computer-validator.6.out, points: 15}
+- {in: nav-computer-validator.7.in, out: nav-computer-validator.7.out, points: 20}
+- {in: nav-computer-validator.8.in, out: nav-computer-validator.8.out, points: 35}

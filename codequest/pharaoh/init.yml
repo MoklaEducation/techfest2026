@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: pharaohs-tribute.1.in, out: pharaohs-tribute.1.out, points: 5}
+- {in: pharaohs-tribute.2.in, out: pharaohs-tribute.2.out, points: 20}
+- {in: pharaohs-tribute.3.in, out: pharaohs-tribute.3.out, points: 75}

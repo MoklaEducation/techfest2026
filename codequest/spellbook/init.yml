@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: wizard-spellbook.1.in, out: wizard-spellbook.1.out, points: 5}
+- {in: wizard-spellbook.2.in, out: wizard-spellbook.2.out, points: 20}
+- {in: wizard-spellbook.3.in, out: wizard-spellbook.3.out, points: 75}

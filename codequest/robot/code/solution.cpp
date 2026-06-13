@@ -1,0 +1,2 @@
+#include <bits/stdc++.h>
+using namespace std;int main(){ios::sync_with_stdio(false);cin.tie(nullptr);int T;cin>>T;string dirs="NESW";int dr[4]={-1,0,1,0},dc[4]={0,1,0,-1};for(int tc=0;tc<T;tc++){int R,C,r,c;char d;string cmd;cin>>R>>C>>r>>c>>d>>cmd;int di=dirs.find(d);for(char ch:cmd){if(ch=='L')di=(di+3)%4;else if(ch=='R')di=(di+1)%4;else{int nr=r+dr[di],nc=c+dc[di];if(nr>=1&&nr<=R&&nc>=1&&nc<=C){r=nr;c=nc;}}}if(tc)cout<<"\n";cout<<"Final = ("<<r<<", "<<c<<", "<<dirs[di]<<")";}return 0;}
