@@ -34,7 +34,7 @@ def main():
 
     parser.add_argument(
         "--dst-template",
-        default="D:\\repo\\mokla\\techfest2026\\codequest\\{problemId}",
+        default="D:\\repo\\mokla\\techfest2026\\logicalrhythm\\{problemId}",
         help="Destination directory template (default: destination/{problemId})",
     )
 
@@ -76,7 +76,7 @@ def main():
 
         links.append(
             f"[Test cases available here!]"
-            f"(https://github.com/MoklaEducation/techfest2026/tree/main/codequest/{problem_id})"
+            f"(https://github.com/MoklaEducation/techfest2026/tree/main/logicalrhythm/{problem_id})"
         )
 
     output_file.write_text("\n".join(links) + "\n", encoding="utf-8")
