@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: moongate.1.in, out: moongate.1.out, points: 5}
+- {in: moongate.2.in, out: moongate.2.out, points: 20}
+- {in: moongate.3.in, out: moongate.3.out, points: 75}
