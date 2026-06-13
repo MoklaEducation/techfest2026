@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: sacred-scroll-repository.1.in, out: sacred-scroll-repository.1.out, points: 5}
+- {in: sacred-scroll-repository.2.in, out: sacred-scroll-repository.2.out, points: 20}
+- {in: sacred-scroll-repository.3.in, out: sacred-scroll-repository.3.out, points: 75}

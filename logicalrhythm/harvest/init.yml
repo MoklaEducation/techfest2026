@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: flood-season-harvest.1.in, out: flood-season-harvest.1.out, points: 5}
+- {in: flood-season-harvest.2.in, out: flood-season-harvest.2.out, points: 20}
+- {in: flood-season-harvest.3.in, out: flood-season-harvest.3.out, points: 75}

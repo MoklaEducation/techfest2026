@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: bakery.1.in, out: bakery.1.out, points: 5}
+- {in: bakery.2.in, out: bakery.2.out, points: 20}
+- {in: bakery.3.in, out: bakery.3.out, points: 75}

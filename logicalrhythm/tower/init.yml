@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: tower-ancient-stones.1.in, out: tower-ancient-stones.1.out, points: 5}
+- {in: tower-ancient-stones.2.in, out: tower-ancient-stones.2.out, points: 20}
+- {in: tower-ancient-stones.3.in, out: tower-ancient-stones.3.out, points: 75}
