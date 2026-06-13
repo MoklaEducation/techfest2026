@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: robot-chef-kitchen.1.in, out: robot-chef-kitchen.1.out, points: 5}
+- {in: robot-chef-kitchen.2.in, out: robot-chef-kitchen.2.out, points: 20}
+- {in: robot-chef-kitchen.3.in, out: robot-chef-kitchen.3.out, points: 75}

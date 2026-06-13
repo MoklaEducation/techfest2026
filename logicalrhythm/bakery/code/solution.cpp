@@ -1,0 +1,2 @@
+#include <bits/stdc++.h>
+using namespace std;int main(){ios::sync_with_stdio(false);cin.tie(nullptr);int t;if(!(cin>>t))return 0;for(int tc=0;tc<t;tc++){int n,k;cin>>n>>k;queue<string> q;for(int i=0;i<n;i++){string s;cin>>s;q.push(s);}unordered_map<string,int> served;vector<string> leave;int service=0;while(!q.empty()){string name=q.front();q.pop();service++;int c=++served[name];if(service%k==0 && c==1)q.push(name);else leave.push_back(name);}for(int i=0;i<(int)leave.size();i++){if(i)cout<<", ";cout<<leave[i];}if(tc<t-1)cout<<'\n';}return 0;}

@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: carnival-ticket-machine.1.in, out: carnival-ticket-machine.1.out, points: 5}
+- {in: carnival-ticket-machine.2.in, out: carnival-ticket-machine.2.out, points: 20}
+- {in: carnival-ticket-machine.3.in, out: carnival-ticket-machine.3.out, points: 75}

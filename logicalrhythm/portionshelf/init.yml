@@ -1,0 +1,5 @@
+archive: tests.zip
+test_cases:
+- {in: potion-shelf.1.in, out: potion-shelf.1.out, points: 5}
+- {in: potion-shelf.2.in, out: potion-shelf.2.out, points: 20}
+- {in: potion-shelf.3.in, out: potion-shelf.3.out, points: 75}
