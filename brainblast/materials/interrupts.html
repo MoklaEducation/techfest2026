@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interrupts</title>
+    <link rel="stylesheet" href="quiz_style.css">
+</head>
+<body>
+    <h1>Interrupts</h1>
+    <form class="quiz-container">
+        <div class="question-card">
+            <div class="question-text">1. What problem was the cookie-maker trying to solve?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Baking faster</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Saving electricity</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Knowing when someone arrived at the door</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Organizing ingredients</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">2. What is the technique called when a program repeatedly checks whether something has happened?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Interrupting</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Scheduling</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Polling</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Branching</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">3. What hardware feature was introduced to solve the polling problem?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Cache</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Registers</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Interrupts</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Pipelines</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">4. What device in the cookie example behaves like an interrupt?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Oven timer</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Mixing bowl</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Doorbell</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Recipe book</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">5. When an interrupt occurs, what does the processor usually do first?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Reboots the system</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Finishes the current instruction</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Clears memory</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Stops permanently</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">6. After an interrupt handler finishes, the interrupted program usually:</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Starts over from the beginning</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Crashes</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Continues where it left off</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Switches to another processor</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">7. What generates an interrupt request?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> A peripheral needing attention</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> A monitor</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> A compiler</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> A file system</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">8. What is a "pin" in processor terminology?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> A programming language command</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> An electrical connection to a chip</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> A type of register</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> A memory address</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">9. Why must an interrupt handler save certain register values?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> To increase clock speed</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> To prevent losing the interrupted program's state</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> To reduce memory usage</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> To disable polling</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">10. An interrupt handler should generally:</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Run as long as possible</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Use maximum memory</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Finish its work quickly</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Restart the operating system</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">11. How does the processor know where an interrupt handler is located?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Through a compiler table</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Through interrupt vectors</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Through RAM scanning</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Through cache memory</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">12. What happens when an interrupt occurs?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> The processor ignores all memory.</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> The processor looks up the interrupt vector and transfers control.</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> The processor erases the stack.</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> The processor doubles its clock speed.</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">13. Which of the following can trigger an interrupt handler?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Stack overflow</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Invalid memory access</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Peripheral requests</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> All of the above</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">14. Why might an exception be handled through the interrupt system?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> To allow the problem to be corrected and execution to continue</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> To permanently halt the computer</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> To increase processor speed</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> To reduce memory requirements</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">15. Why would a system temporarily disable certain interrupts?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> To protect a critical operation from being interrupted</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> To increase monitor brightness</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> To improve disk capacity</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> To reduce processor temperature</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">16. What can happen to a low-priority interrupt handler?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> It may itself be interrupted by a higher-priority interrupt.</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> It cannot execute.</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> It automatically becomes high priority.</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> It disables all hardware.</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">17. Why are interrupts generally considered more efficient than polling?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> They eliminate memory usage.</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> They only require attention when an event actually occurs.</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> They execute more instructions.</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> They increase clock speed.</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">18. A processor is repeatedly checking a keyboard 10,000 times per second even when no key is pressed. This is an example of:</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> Interrupt-driven I/O</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Polling</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> DMA</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Vectoring</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">19. Suppose an interrupt handler modifies a register but fails to restore it before returning. What is the most likely result?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> The interrupted program may behave incorrectly.</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> The processor becomes faster.</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> The interrupt vector changes automatically.</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Memory usage decreases.</li>
+            </ul>
+        </div>
+        <div class="question-card">
+            <div class="question-text">20. Which statement best explains why interrupts are considered a hardware solution?</div>
+            <ul class="options-list">
+                <li class="option-item"><span class="option-letter"><strong>A.</strong></span> External hardware signals can force the processor to temporarily change execution flow.</li>
+                <li class="option-item"><span class="option-letter"><strong>B.</strong></span> Interrupts are stored only in software.</li>
+                <li class="option-item"><span class="option-letter"><strong>C.</strong></span> Interrupts require no processor support.</li>
+                <li class="option-item"><span class="option-letter"><strong>D.</strong></span> Interrupts are handled entirely by compilers.</li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
